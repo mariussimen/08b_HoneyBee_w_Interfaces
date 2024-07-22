@@ -1,15 +1,23 @@
-package com.cc.java;
+package com.cc.java.birds;
 
-public class Bird extends HoneyBee{
+import com.cc.java.interfaces.Flyable;
+import com.cc.java.interfaces.IFeathers;
 
-    @Override
-    public String doYourJob() {
-        return "But I'm a biiiiiiiird!";
-    }
+public class Bird implements Flyable,IFeathers{
 
     @Override
     public String fly() {
-        return "I can fly at 20mph!";
+      
+
+        return  "I' can fly at 20mph!";
     }
 
+    @Override
+    public String hasFeathers() {
+      
+        return "I'm a Bird , Ihave feathers!";
+    }
+
+
+    
 }

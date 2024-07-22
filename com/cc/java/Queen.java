@@ -1,4 +1,5 @@
-package com.cc.java;
+// package com.cc.java;
+package com.cc.java.bees;
 
 public class Queen extends HoneyBee{
    

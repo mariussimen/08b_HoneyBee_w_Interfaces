@@ -1,5 +1,9 @@
 package com.cc.java;
 
+import com.cc.java.bees.*;
+import com.cc.java.birds.Bird;
+
+
 public class App {
     
     public static void main(String[] args) {
@@ -14,7 +18,7 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-        pollObj(bird);
+        // pollObj(bird);
    
 
         // HoneyBee ist abstrakt --> Fehler!
